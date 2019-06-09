@@ -1,0 +1,12 @@
+<!--components/BigWheel/BigWheel.wxml-->
+<view class="box">
+  <!-- <canvas canvas-id="myCanvas" class="big-wheel" style="width:300px;height:300px; transform: rotate({{angle}}deg);">
+
+  </canvas>
+  <canvas canvas-id="go" class="go-btn" catchtap="playBigWheel"></canvas> -->
+  <!-- <view class="shishi" style="width: 100rpx;height: 100rpx;background: red;transform: rotate({{angle1}}deg);" bindtap="onShishi"></view> -->
+
+      <canvas style="border: 1px solid red;width: 100px;height: 100px;" class="shishi" canvas-id="shishi" animation="{{animationData}}" bindtap="createAnimation"></canvas>
+
+
+</view>

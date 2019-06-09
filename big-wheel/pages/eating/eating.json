@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "big-wheel": "/components/BigWheel/BigWheel"
+  }
+}
